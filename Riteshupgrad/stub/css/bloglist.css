@@ -1,0 +1,216 @@
+/*style and blog post*/   
+.post {
+    position: relative;
+    width: 90%;
+    height: 20%;
+    flex:1;
+    background: #fff;
+    box-shadow:0 4px 10px 0 rgba(17, 4, 63, 0.2),0 4px 20px 0 rgba(79, 19, 97, 0.19);
+    margin: 10px 10px 10px 20px;
+    float:left;
+    border-radius: 15px;
+}
+
+/*flex for post*/  
+#one,#two
+{
+    align-items: center;
+    display:flex;
+    margin: auto;
+    justify-content: center;
+}
+
+#three
+{
+    display: flex;
+    width:50%;
+    margin: auto;
+
+}
+
+/*style for author blog*/   
+.post-left {
+        width: 15%;            
+        max-width: 15%;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        font-weight: bold;
+        color: #000;
+}
+
+/*style the main content*/   
+.post-content 
+{
+        width: 75%;           
+        display: table-cell;
+        text-align: left;
+        background-color: #E8E8E8;
+        color: #000000;
+        border-radius: 0 15px 15px 0;
+        padding: 0 20px;      
+}
+
+/*style the heading of main content*/   
+.post-title
+{
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    color: #2b312b;
+    font-size: 25px;
+    height: 25px;
+ }
+
+
+.post-more {
+    float: right;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+/*style the content inside the main blog*/   
+.post-desc
+{
+    height: 100px;
+    margin-bottom: 0 !important;
+    text-overflow: none;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0 !important;
+    color: #fff;
+    background-color: orange;
+    background-size: 2000% 2000%;
+}
+.allPostsContainer 
+{
+    height: 100%;
+    width: 100%;
+
+}
+
+
+/*style of Modal Content */
+.modal-content {
+    position: relative;
+    top: -34px;
+    color: black;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 35%;
+  }
+  
+  /* The Close Button on the modal*/
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+/* styles the input fields in the modals */
+.me
+{
+   border: none;
+   outline: none;
+   padding: 5px;
+   margin-top: 2px;
+   background-color: #f1f1f1;
+   display: block;
+   width:98%;
+   height:20px;
+}
+
+.head
+{
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+/* modals footer */
+#foot
+{
+   color:black;
+   text-align: center;
+   font-weight: bold;
+}
+/* styles the label in the modals */
+.lab
+{
+   color: #000;
+   font-weight: bold;
+}
+
+/* style for danger/yes button*/
+#danger
+{
+    background-color:green;
+    color:white;
+    margin: 5%;
+    border: none;
+    float: right;
+    width: 133px;
+    height: 40px;
+    padding: 8px;
+
+}
+#success
+{
+    background-color:red;
+    color:white;
+    margin: 5%;
+    border: none;
+    float: left;
+    width: 133px;
+    height: 40px;
+    padding: 8px;
+}
+
+/* The Modal (background) */
+.modal5 
+{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal5-content 
+{
+    background-color: #fefefe;
+    margin: 18% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    height: 15%;
+    width: 25%; /* Could be more or less, depending on screen size */
+  }
+
+
+

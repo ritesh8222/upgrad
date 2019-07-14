@@ -1,0 +1,115 @@
+body{
+   background: url('background.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+   margin: 0 !important;
+   background-size: 100% cover!important;
+   overflow:hidden;
+   display: block;
+} 
+
+/* Set a style for the rest of the elements besides the header elements on the index.html page */
+                                 
+
+/* styles the input fields in the modals */
+.me
+{
+   border: none;
+   outline: none;
+   padding: 5px;
+   margin-top: 2px;
+   background-color: #f1f1f1;
+   display: block;
+   width:98%;
+   height:20px;
+}
+
+.me1
+{
+   height:180px;
+   width: 99%;
+   background-color: lightgoldenrodyellow;
+}
+/* styles the label in the modals */
+.lab
+{
+   color: #000;
+   font-weight: bold;
+}
+
+/* modal head */
+.head
+{
+   font-family: monospace;
+   text-align: center;
+   font-size: 20px;
+}
+.head1
+{
+   background-color:lightpink;
+   color: blue;
+   font-family: monospace;
+   text-align: center;
+   font-size: 30px;
+   padding: 20px;
+}
+/* modals footer */
+#foot
+{
+   color:black;
+   text-align: center;
+   font-weight: bold;
+}
+
+
+/*style of Modal Content */
+.modal-content {
+   background-color: #fefefe;
+   margin: auto;
+   padding: 20px;
+   border: 1px solid #888;
+   width: 30%;
+ }
+ 
+ /* The Close Button on the modal*/
+ .close {
+   color: #aaaaaa;
+   float: right;
+   font-size: 28px;
+   font-weight: bold;
+ }
+ 
+ .close:hover,
+ .close:focus {
+   color: #000;
+   text-decoration: none;
+   cursor: pointer;
+ }
+ 
+ /*style of Modal Content */
+.modal1-content {
+   background-color: black;
+   margin: auto;
+   padding: 20px;
+   border: 5px solid goldenrod;
+   width: 50%;
+   height: 70%;
+ }
+ 
+ /* The Close Button on the modal*/
+ .close2 {
+   color: #aaaaaa;
+   float: right;
+   font-size: 28px;
+   font-weight: bold;
+ }
+ 
+ .close2:hover,
+ .close2:focus {
+   color: green;
+   text-decoration: none;
+   cursor: pointer;
+ }
+ 
